@@ -1,0 +1,1 @@
+The articles can also be rated as per "importance" as judged by a WikiProject. Currently, there are 5 importance categories: "low", "mid", "high", "top", and "???" for unclassified/uncertain level. For a particular article, different WikiProjects may assign different importance levels.

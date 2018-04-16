@@ -1,0 +1,1 @@
+The Wikipedia Version 1.0 Editorial Team has developed a table (shown below) that displays data of all rated articles by quality and importance, on the English Wikipedia. If an article or list receives different ratings by two or more WikiProjects, then the highest rating is used in the table, pie-charts, and bar-chart. The software regularly auto-updates the data.
