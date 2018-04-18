@@ -2,7 +2,7 @@
 Notes, demos and materials for learning Machine Learning
 
 ## Extra materialS
-In addition to the material in this git repository, I've also used materials from my computer vision and data mining modules. Please feel free to take a look at the lecutre slides and notes for these which can be found here:
+In addition to the material in this git repository, I've also used materials from my computer vision and data mining modules. Please feel free to take a look at the lecture slides and notes for these which can be found here:
 
 - http://comp3204.ecs.soton.ac.uk
 - http://comp6237.ecs.soton.ac.uk
