@@ -631,7 +631,7 @@ layer_output = model.layers[3].output
 for i in xrange(0,15):
 	# build a loss function that maximizes the activation
 	# of the nth filter of the layer considered
-	loss = K.mean(layer_output[:, i, :, :])
+	loss = K.mean(layer_output[:, :, :, i])
 
 	# compute the gradient of the input picture wrt this loss
 	grads = K.gradients(loss, input_img)[0]

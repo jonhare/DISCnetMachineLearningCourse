@@ -13,9 +13,8 @@ input_img = model.input
 step=1
 
 # we're interested in maximising outputs of the 3rd layer:
-layer_output = model.layers[3].output
-
-for i in xrange(0,15):
+layer_output = model.layers[2].output
+for i in range(0,15):
 	# build a loss function that maximizes the activation
 	# of the nth filter of the layer considered
 	loss = K.mean(layer_output[:, :, :, i])
@@ -33,7 +32,7 @@ for i in xrange(0,15):
 	input_img_data = np.random.random((1, 28, 28, 1)) * 0.07 + 0.5
 	
 	# run gradient ascent for 50 steps
-	for j in range(50):
+	for j in range(30):
 		loss_value, grads_value = iterate([input_img_data])
 		input_img_data += grads_value * step
 
