@@ -599,7 +599,7 @@ layer_output = get_3rd_layer_output([image])[0]
 # plot the results
 for i in xrange(0,15):
 	plt.subplot(4,4,i+1)
-	plt.imshow(layer_output[0][i], cmap=plt.get_cmap('gray'))
+	plt.imshow(layer_output[0,:,:,i], cmap=plt.get_cmap('gray'))
 
 # show the plot
 plt.show()
@@ -652,7 +652,7 @@ for i in xrange(0,15):
 
 	# plot the results
 	plt.subplot(4,4,i+1)
-	plt.imshow(input_img_data[0,:,:0], cmap=plt.get_cmap('gray'))
+	plt.imshow(input_img_data[0,:,:,0], cmap=plt.get_cmap('gray'))
 
 # show the plot
 plt.show()
