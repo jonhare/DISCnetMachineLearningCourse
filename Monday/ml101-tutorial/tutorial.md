@@ -27,7 +27,7 @@ You'll need access to a computer with the following installed:
 
 The easiest way to install all of these together is with [Anaconda](https://www.continuum.io/downloads) (Windows, Mac & Linux installers available).
 
-Finally, you'll need the datasets we'll be using - you can download this from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Tuesday/ml101-tutorial/data.zip.
+Finally, you'll need the datasets we'll be using - you can download this from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/data.zip.
 
 ## A data set for experimentation
 
@@ -421,7 +421,7 @@ A more detailed summary of the search is available in the `gs_clf.cv_results_` a
 ---------------------------------------
 
 > **Exercise:** Write a text classification pipeline using a custom preprocessor and `CharNGramAnalyzer` using data from Wikipedia articles as training set.
-Evaluate the performance on some held out test set. Download the starter code from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Tuesday/ml101-tutorial/train_language_model.py & save it as `train_language_model.py`: 
+Evaluate the performance on some held out test set. Download the starter code from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/train_language_model.py & save it as `train_language_model.py`: 
 
 To run the code use `python3 train_language_model.py path/to/data/language/paragraphs` (change the path to match where your copy of the data is stored)
 
@@ -431,7 +431,7 @@ To run the code use `python3 train_language_model.py path/to/data/language/parag
 
 ---------------------------------------
 
-> **Exercise:** Write a text classification pipeline to classify movie reviews as either positive or negative. Find a good set of parameters using grid search. Evaluate the performance on a held out test set. Download the starter code from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Tuesday/ml101-tutorial/sentiment.py & save it as `sentiment.py`: 
+> **Exercise:** Write a text classification pipeline to classify movie reviews as either positive or negative. Find a good set of parameters using grid search. Evaluate the performance on a held out test set. Download the starter code from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/sentiment.py & save it as `sentiment.py`: 
 
 To run the code use `python3 sentiment.py path/to/data/movie_reviews/txt_sentoken` (change the path to match where your copy of the data is stored)
 
