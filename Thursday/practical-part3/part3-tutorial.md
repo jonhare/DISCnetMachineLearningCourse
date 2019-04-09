@@ -6,6 +6,7 @@ _[Jonathon Hare, 21st Jan 2018](https://github.com/jonhare/DISCnetMachineLearnin
 
 - 20180121: Initial version
 - 20180416: Update for DISCnet
+- 20190408: Update for DISCnet/2 + Colab
 
 ## Introduction
 
@@ -23,9 +24,11 @@ Through this part of the tutorial you'll learn how to:
 The LSTM-based Nietzsche generator described in the first part of the tutorial comes from the Keras examples. The second part of this tutorial is largely based on the first section of Jason Brownlee's ["Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras"](https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/) tutorial. 
 
 ## Prerequisites
-As with part 1 of the tutorial, you'll use Python 3 language the `keras`. We'll also again be using the `scikit-learn` and `numpy` packages.
+To use this tutorial you'll use the Python 3 language with the `keras` deep learning library and the `tensorflow` backend. We'll also use the `scikit-learn` and `numpy` packages. For this lab we'll use a Jupyter notebook running in the cloud on [Google Colab](https://colab.research.google.com). Colab gives us free access to a virtual machine with GPU acceleration and all the prerequisite libraries pre-installed.
 
-You'll need access to a computer with the following installed:
+	__Note:__ in Jupyter Notebooks, commands with an exclaimation mark (!) in front of them are shell commands, and will run just as if typed in a terminal (without the exclaimation mark).
+
+If running locally you'll need access to a computer with the following installed:
 
 - `Python` (> 3.6)
 - `keras` (>= 2.0.0)
@@ -33,7 +36,8 @@ You'll need access to a computer with the following installed:
 - `NumPy` (>= 1.12.1)
 - `SciPy` (>= 0.19.1)
 - `scikit-learn` (>= 0.19.1)
-- `pillow` (>=4.0.0)
+
+If you've installed the base Anaconda python distribution, then running `conda install keras` will install both keras and tensorflow. You can make a start on this tutorial using you own machines, however you'll find that the code runs rather slowly. To run at more sensible speeds you need access to a machine with a powerful GPU (or GPUs).
 
 ## Modelling sequences
 

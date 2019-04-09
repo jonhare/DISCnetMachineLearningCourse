@@ -6,6 +6,7 @@ _[Jonathon Hare, 21st Jan 2018](https://github.com/jonhare/DISCnetMachineLearnin
 
 - 20180121: Initial version
 - 20180416: Update for DISCnet
+- 20190408: Update for DISCnet/2 + Colab
 
 ## Introduction
 
@@ -21,9 +22,11 @@ Through this part of the tutorial you'll learn how to:
 * How to extract _semantic_ features that can be used for transfer learning and finding similar features.
 
 ## Prerequisites
-As with part 1 of the tutorial, you'll use Python 3 language the `keras`. We'll also again be using the `scikit-learn` and `numpy` packages.
+To use this tutorial you'll use the Python 3 language with the `keras` deep learning library and the `tensorflow` backend. We'll also use the `scikit-learn` and `numpy` packages. For this lab we'll use a Jupyter notebook running in the cloud on [Google Colab](https://colab.research.google.com). Colab gives us free access to a virtual machine with GPU acceleration and all the prerequisite libraries pre-installed.
+	
+	__Note:__ in Jupyter Notebooks, commands with an exclaimation mark (!) in front of them are shell commands, and will run just as if typed in a terminal (without the exclaimation mark).
 
-You'll need access to a computer with the following installed:
+If running locally you'll need access to a computer with the following installed:
 
 - `Python` (> 3.6)
 - `keras` (>= 2.0.0)
@@ -31,14 +34,15 @@ You'll need access to a computer with the following installed:
 - `NumPy` (>= 1.12.1)
 - `SciPy` (>= 0.19.1)
 - `scikit-learn` (>= 0.19.1)
-- `pillow` (>=4.0.0)
+
+If you've installed the base Anaconda python distribution, then running `conda install keras` will install both keras and tensorflow. You can make a start on this tutorial using you own machines, however you'll find that the code runs rather slowly. To run at more sensible speeds you need access to a machine with a powerful GPU (or GPUs).
 
 ## Getting started 
 Start by downloading and unzipping the data set:
 
 ```
-wget https://artist-cloud.ecs.soton.ac.uk/s/wyxs7b59Ohr9LaT/download
-unzip boat-data.zip
+!wget https://artist-cloud.ecs.soton.ac.uk/s/wyxs7b59Ohr9LaT/download
+!unzip boat-data.zip
 ```
 
 We'll start by exploring the data, and look at how we can get that data loaded into memory through python code. If you open the data directory you should see three folders:
@@ -53,7 +57,6 @@ The keras library has support for directly reading images from a directory struc
 # Plot ad hoc data instances
 from keras.preprocessing.image import ImageDataGenerator
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy
 
@@ -82,7 +85,6 @@ plt.imshow(batch_images[3], aspect='equal')
 
 # show the plot
 plt.show()
-plt.savefig("batch.png")
 ```
 
 You can see that accessing the dataset is quite easy. The most important caveat of using the `ImageDataGenerator` comes when we are using it to load the test data - in such a case we need to ensure that no augmentation happens (other than the resizing of inputs through the `target_size` attribute of `flow_from_directory`), and that the `shuffle` attribute of `flow_from_directory` is `False`, to ensure that we can compare the true labels and target labels correctly.

@@ -8,6 +8,7 @@ _[Jonathon Hare, 21st Jan 2018](https://github.com/jonhare/DISCnetMachineLearnin
 - 20170403: Update to use Keras 2 API
 - 20180121: Update for LR
 - 20180416: Update for DISCnet
+- 20190408: Update for DISCnet/2 + Colab
 
 ## Acknowledgements
 This part of the course is largely based on Jason Brownlee's ["Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras"](http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/) tutorial. A number of changes have been made to ensure that it better fits our format, and I've added additional bits and exercises throughout. This version extends on one that I ran for the VLC research group in October 2016 and a revised version for Ordnance Survey in April 2017.
@@ -30,9 +31,11 @@ Through this part of the tutorial you'll learn how to:
 * How to implement networks with branching and merging.
 
 ## Prerequisites
-To use this tutorial you'll use the Python 2 language with the `keras` deep learning library and the `tensorflow` backend. We'll also use the `scikit-learn` and `numpy` packages.
+To use this tutorial you'll use the Python 3 language with the `keras` deep learning library and the `tensorflow` backend. We'll also use the `scikit-learn` and `numpy` packages. For this lab we'll use a Jupyter notebook running in the cloud on [Google Colab](https://colab.research.google.com). Colab gives us free access to a virtual machine with GPU acceleration and all the prerequisite libraries pre-installed. 
 
-You'll need access to a computer with the following installed:
+	__Note:__ in Jupyter Notebooks, commands with an exclaimation mark (!) in front of them are shell commands, and will run just as if typed in a terminal (without the exclaimation mark).
+
+If running locally you'll need access to a computer with the following installed:
 
 - `Python` (> 3.6)
 - `keras` (>= 2.0.0)
@@ -70,7 +73,6 @@ To demonstrate how easy it is to load the MNIST dataset, we will first write a l
 # Plot ad hoc mnist instances
 from keras.datasets import mnist
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 # load (downloaded if needed) the MNIST dataset
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
@@ -85,7 +87,6 @@ plt.subplot(224)
 plt.imshow(X_train[3], cmap=plt.get_cmap('gray'))
 # show the plot
 plt.show()
-plt.savefig("filters.png")
 ```
 
 You can see that downloading and loading the MNIST dataset is as easy as calling the `mnist.load_data()` function. Running the above example, you should see the image below.
@@ -223,8 +224,6 @@ Running the example might take a few minutes when run on a CPU (probably around 
 	1s - loss: 0.0081 - acc: 0.9984 - val_loss: 0.0566 - val_acc: 0.9821
 	Baseline Error: 1.79%
 
-If you want to try forcing the code to run on the CPU to see how slow it will be you can set the `CUDA_VISIBLE_DEVICES` environment variable to an empty string using `export CUDA_VISIBLE_DEVICES=`, or set it temporarily whilst you run the code: `CUDA_VISIBLE_DEVICES= python keras-mnist-mlp.py`.
-
 ## Simple Convolutional Neural Network for MNIST
 
 Now that we have seen how to load the MNIST dataset and train a simple multi-layer perceptron model on it, we can now start to develop a more sophisticated convolutional neural network or CNN model.
@@ -323,7 +322,7 @@ print("Baseline Error: %.2f%%" % (100-scores[1]*100))
 
 Running the example, the accuracy on the training and validation test is printed each epoch and at the end of the classification error rate is printed.
 
-Epochs may take a second or so on the Titan X, although will take a fair bit longer on the CPU (perhaps ~46s per epoch). You can see that the network achieves an error rate of 1.06, which is better than the simple multi-layer perceptron model above.
+Epochs may take a second or so on the GPU, although will take a fair bit longer on the CPU (perhaps ~46s per epoch). You can see that the network achieves an error rate of 1.06, which is better than the simple multi-layer perceptron model above.
 
 	Using TensorFlow backend.
 	Train on 60000 samples, validate on 10000 samples
@@ -443,7 +442,7 @@ print("Baseline Error: %.2f%%" % (100-scores[1]*100))
 
 Running the example prints accuracy on the training and validation datasets each epoch and a final classification error rate.
 
-The model takes about a couple of seconds to run per epoch on a Titan X GPU (CPU run times are around 60s/epoch). This slightly larger model achieves the respectable classification error rate of 0.84%.
+The model takes about a couple of seconds to run per epoch on a GPU (CPU run times are around 60s/epoch). This slightly larger model achieves the respectable classification error rate of 0.84%.
 
 	Using TensorFlow backend.
 	Train on 60000 samples, validate on 10000 samples
@@ -489,7 +488,15 @@ Being able to train a model is fine, but in practice once we've trained the mode
 
 ## Reading models and propagating input
 
-At this point, we know how to train a model and how to save the result. Lets assume we're in the business of building a real system for handwritten character recognition; we need to be able to read in a previously trained model and forward propagate an image from outside the MNIST dataset through it in order to generate a prediction. Let's build some code to do just that:
+At this point, we know how to train a model and how to save the result. Lets assume we're in the business of building a real system for handwritten character recognition; we need to be able to read in a previously trained model and forward propagate an image from outside the MNIST dataset through it in order to generate a prediction. 
+
+Firstly, let's download an image to use: 
+
+```
+!wget https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Thursday/practical-part1/1.PNG
+```
+
+Now let's build some code load the model and apply it to the image:
 
 ```python
 import sys
@@ -500,7 +507,7 @@ from scipy.misc import imread
 model = load_model('bettercnn.h5')
 
 # load an image
-image = imread(sys.argv[1]).astype(float)
+image = imread('1.PNG').astype(float)
 
 # normalise it in the same manner as we did for the training data
 image = image / 255.0
@@ -513,11 +520,9 @@ image = image.reshape(1,28,28,1)
 print("predicted digit: "+str(model.predict_classes(image)[0]))
 ```
 
-We can run this with a sample image:
+Running this should yield something like this:
 
 ```
-wget https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Thursday/practical-part1/1.PNG
-python keras-mnist-forward.py 1.PNG
 Using TensorFlow backend.
 2018-01-21 14:55:16.453161: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
 2018-01-21 14:55:16.453191: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
@@ -547,7 +552,6 @@ In our previous convolutional network, the first layer was a Convolutional layer
 from keras.models import load_model
 from scipy.misc import imread
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # load a model
@@ -562,7 +566,6 @@ for i in xrange(0,30):
 
 # show the plot
 plt.show()
-plt.savefig("filters.png")
 ```
 
 Note that the ordering of convolution filters in Tensorflow is [width][height][pixels][depth].
@@ -576,7 +579,6 @@ from keras.models import load_model
 from keras import backend as K
 from scipy.misc import imread
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # load a model
@@ -603,7 +605,6 @@ for i in xrange(0,15):
 
 # show the plot
 plt.show()
-plt.savefig("filters.png")
 ```
 
 > __Exercise:__ Run the above code and see how the response maps differ for different input images.
@@ -615,7 +616,6 @@ from keras.models import load_model
 from keras import backend as K
 import numpy as np
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # load a model
@@ -656,7 +656,6 @@ for i in xrange(0,15):
 
 # show the plot
 plt.show()
-plt.savefig("maxact.png")
 ```
 
 > __Exercise:__ Run the above code to see what the filters respond to.
