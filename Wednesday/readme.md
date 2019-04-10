@@ -17,6 +17,6 @@ kernels (kernels)
 
 ## Graphical Models
 
-A good introduction to graphical models is [A Tutorial on Learning With Bayesian Networks David Heckerman][https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjr8prX5cXhAhWCs3EKHTosCh0QFjACegQIABAC&url=https%3A%2F%2Fwww.cse.unr.edu%2F~bebis%2FCS479%2FReadings%2Fbayesian_nets.pdf&usg=AOvVaw335-X0IB5UA4ueGpHk406V]
+A good introduction to graphical models is [A Tutorial on Learning With Bayesian Networks David Heckerman](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjr8prX5cXhAhWCs3EKHTosCh0QFjACegQIABAC&url=https%3A%2F%2Fwww.cse.unr.edu%2F~bebis%2FCS479%2FReadings%2Fbayesian_nets.pdf&usg=AOvVaw335-X0IB5UA4ueGpHk406V)
 
 ~~~
