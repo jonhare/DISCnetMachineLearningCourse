@@ -13,62 +13,96 @@ In addition to the material in this git repository, I've also used materials fro
 
 (Note that this is only a guide. We'll adapt the content to your needs during the course.)
 
-- **Monday:** Overview of Machine Learning
+- **Monday 27th July 2020:** Overview of Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
-  + Topics Covered:
-    * Success stories in machine learning
-    * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md)
-    * Machine learning techniques
-      * Linear Regression, MLP, SVMs, Decision Trees, Deep Learning
-    * Machine learning problems
-      * Supervised learning (regression/classification), Unsupervised learning (PCA/clustering), Semi-supervised learning, reinforcement learning
-    * Making sense of data
-      * Types of data (images, text, numbers)
-        - Encoding data and feature extraction
-      * Data preparation, missing data
-        - Balancing data
-    *  Common tools
-      * Matlab, python
-    * Practical walkthrough - understanding variance
-    * [Machine Learning 101 - classifying text](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ml101-tutorial/tutorial.md)
-    * Discussion about what problems we would like to explore on Friday
-    * Homework - reflect on how the day's activities could be applied
-- **Tuesday:** Introduction to Machine Learning
-  + *Leaders: Prof Niranjan*
-  + Topics Covered:
-    * The perceptron/Bayes optimal decisions
+  + 10:00-11:30
+    * Introductions:  Course teachers and students
+    * Playing with zoom
+    * ML in one page _Niranjan_
+    * Why machine learning (success stories) _Adam_
+    * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md) _Jon_
+  + 11:30-12:00
+    * Coffee
+    * Chat in Break out rooms
+  + 12:00-1:00 _Niranjan_
+    * Understanding simple machine learning algorithms
+      * Linear models, Gaussian distributions
+  + 1:00-2:00
+    * Lunch (exercise)
+  + 2:00-3:30 _Niranjan_
+    * Bayes Optimal Regression 
+    * Fisher Discriminant Analysis
+    * Peceptron
+  + 3:30:4:00
+    * Coffee (break out rooms)
+  + 4:00-5:00 _Jon_
+    * Hands-of practical session
+    * Introduction to python, scikit-learn and CoLab
+ 
+- **Tuesday 28th July 2020:** Introduction to Machine Learning
+  + 9:30-11:00 _Jon_
+    * More practicals/exercises
+  + 11:00-11:30
+    * Coffee/break out rooms
+  + 11:30-1:00 _Jon_
+    * Handling Data
+  + 1:00-2:00
+    * Coffee
+  + 2:00-3:30 _Niranjan_
     * Feature selection and Lasso
     * MLPs
     * Gradient learning, SGD, momentum
+  + 3:30-4:00
+    * Coffee
+  + 4:00-5:00
     * Evaluating performance
       * ROC curves
     * Homework
-- **Wednesday:** Advanced Machine Learning
-  + Leader: *Prof Adam Prugel-Bennett*
-  + Topics Covered:
+    
+- **Wednesday: 29th July 2020:** Advanced Machine Learning
+  + Leader: _Adam_
+  + 9:30-11:00
     * Generalisation
       * Bias-Variance Dilema
     * Ensemble Techniques
       * Ada-boost, random forest
+  + 11:00-11:30
+    * Coffee
+  + 11:30-1:00
     * Kernel methods
       * SVM
       * kernels
+  + 1:00-2:00
+    * Lunch
+  + 2:00-3:30
     * Probabilistic techniques
       * Gaussian Processes
-      * Graphical Models, LDA, MCMC
+  + 3:30-4:00
+    * Coffee
+  + 4:00-5:00
+    * Graphical Models, LDA, MCMC
     * Homework
-- **Thursday:** Deep Learning
-  + *Leader: Dr Jonathon Hare*
-  + Topics Covered:
+- **Monday 3rd August 2020:** Deep Learning
+  + *Leader: _Jonathon_
+  + 9:30-11:00
     * Why Deep
       * CNNs
       * RNNs (LSTM, etc.)
+  + 11:30-12:00
+    * Coffee
+  + 12:00-1:00
     * Word Embeddings
     * Loss functions
     * GPU programming (libraries)
+  + 1:00-2:00
+    * Lunch
+  + 2:00-3:30
     * Keras tutorial 1 - building simple CNNs
     * Transfer Learning
     * Keras tutorial 2 - transfer learning with CNNs
+  + 3:30-4:00
+    * Coffee
+  + 4:00-5:00
     * Keras tutorial 3 - Text classification
     * Keras tutorial 4 - Sequence modelling
     * Current research challenges
@@ -85,7 +119,7 @@ In addition to the material in this git repository, I've also used materials fro
         + VQA
       - GANs
     * Homework
-- **Friday:** Practical Machine Learning
+- **Tuesday 4th August 2020:** Practical Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
     * Workshop on data you provide
     * We will look at:
@@ -94,4 +128,7 @@ In addition to the material in this git repository, I've also used materials fro
       * Cleaning the data
       * Using machine learning libraries
       * Evaluate performance
+    * 11:30-12:00 Coffee
+    * 1:00-2:00 Lunch
+    * 3:30-4:00 Coffee
 
