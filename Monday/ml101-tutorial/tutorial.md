@@ -29,8 +29,8 @@ The easiest way to install all of these together locally is with [Anaconda](http
 
 Finally, you'll need the datasets we'll be using - you can download this from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/data.zip. If you're using colab then in the first cell do this:
 
-  !wget https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/data.zip
-  !unzip data.zip
+    !wget https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/data.zip
+    !unzip data.zip
 
 
 ## A data set for experimentation
