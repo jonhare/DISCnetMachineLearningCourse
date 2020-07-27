@@ -18,7 +18,7 @@ In addition to the material in this git repository, I've also used materials fro
   + 10:00-11:30
     * Introductions:  Course teachers and students
     * Playing with zoom
-    * ML in one page _Niranjan_
+    * [ML in one page](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/SummerSchool_NiranjanOnePage.pdf) _Niranjan_
     * Why machine learning (success stories) _Adam_
     * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md) _Jon_
   + 11:30-12:00
