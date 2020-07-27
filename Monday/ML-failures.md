@@ -17,3 +17,11 @@ Here’s Minsky talking some of the early failures of Perceptrons (the first rea
 Teaching robots to do even simple things still has its challenges:
 
 [![DARPA Robots](http://img.youtube.com/vi/g0TaYhjpOfo/0.jpg)](http://www.youtube.com/watch?v=g0TaYhjpOfo "DARPA Robots")
+
+### Tay
+
+Microsoft's racist chat bot: 
+
+[![Tay: Microsoft's chat bot](https://en.wikipedia.org/wiki/Tay_(bot)]
+
+
