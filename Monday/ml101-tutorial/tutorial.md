@@ -25,9 +25,13 @@ You'll need access to a computer with the following installed:
 - `SciPy` (>= 0.19.1)
 - `scikit-learn` (>= 0.19.1)
 
-The easiest way to install all of these together is with [Anaconda](https://www.continuum.io/downloads) (Windows, Mac & Linux installers available).
+The easiest way to install all of these together locally is with [Anaconda](https://www.continuum.io/downloads) (Windows, Mac & Linux installers available). However, you could just use [colab](colab.research.google.com) which has everything installed already!
 
-Finally, you'll need the datasets we'll be using - you can download this from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/data.zip.
+Finally, you'll need the datasets we'll be using - you can download this from https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/data.zip. If you're using colab then in the first cell do this:
+
+    !wget https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/ml101-tutorial/data.zip
+    !unzip data.zip
+
 
 ## A data set for experimentation
 
@@ -35,9 +39,9 @@ For the purposes of this tutorial we're going to play with a dataset of internet
 
 > The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups. To the best of our knowledge, it was originally collected by Ken Lang, probably for his paper "Newsweeder: Learning to filter netnews," though he does not explicitly mention this collection. The 20 newsgroups collection has become a popular data set for experiments in text applications of machine learning techniques, such as text classification and text clustering.
 
-Start by unzipping the datasets downloaded above and navigating to the `data/twenty_newsgroups` folder. Look at how the data set is structured; there are two folders - one with data for training models, and one for testing how well a model works. Within each of the training and testing folders are 20 folders representing the 20 different newsgroups. Within these folders are the actual messages posted on the newsgroups, with one file per message. Spend some time to open a few of the files in a text editor to see their contents.
+Start by unzipping the datasets downloaded above and navigating to the `data/twenty_newsgroups` folder (if you're using colab you already unzipped it; you can use the file explorer on the left to see the contents). Look at how the data set is structured; there are two folders - one with data for training models, and one for testing how well a model works. Within each of the training and testing folders are 20 folders representing the 20 different newsgroups. Within these folders are the actual messages posted on the newsgroups, with one file per message. Spend some time to open a few of the files in a text editor to see their contents.
 
-Now open a python interpreter (either `python3` or `ipython3`) to get started learning how to use `scikit-learn`.
+Now open a python interpreter (either `python3`, `ipython3`, `jupyter notebook` or colab) to get started learning how to use `scikit-learn`.
 
 We're going to start by loading the dataset into memory. `scikit-learn` contains a number of tools that can help us do this. In order to get faster execution times for the initial parts of this tutorial we will work on a partial dataset with only 4 categories out of the 20 available in the dataset:
 
