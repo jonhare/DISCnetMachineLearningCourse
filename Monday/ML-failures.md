@@ -20,8 +20,6 @@ Teaching robots to do even simple things still has its challenges:
 
 ### Tay
 
-Microsoft's racist chat bot: 
-
-[Tay: Microsoft's chat bot](https://en.wikipedia.org/wiki/Tay_(bot))
+Microsoft's racist chat bot: [Tay](https://en.wikipedia.org/wiki/Tay_(bot))
 
 
