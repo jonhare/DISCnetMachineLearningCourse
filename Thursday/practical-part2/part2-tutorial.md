@@ -41,7 +41,7 @@ If you've installed the base Anaconda python distribution, then running `conda i
 Start by downloading and unzipping the data set:
 
 ```
-!wget https://artist-cloud.ecs.soton.ac.uk/s/wyxs7b59Ohr9LaT/download
+!wget https://artist-cloud.ecs.soton.ac.uk/index.php/s/eAhIkhhdxgmhRHj/download
 !unzip boat-data.zip
 ```
 
