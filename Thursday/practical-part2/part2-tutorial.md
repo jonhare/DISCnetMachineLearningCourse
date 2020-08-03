@@ -42,6 +42,7 @@ Start by downloading and unzipping the data set:
 
 ```
 !wget https://artist-cloud.ecs.soton.ac.uk/index.php/s/eAhIkhhdxgmhRHj/download
+!mv download boat-data.zip
 !unzip boat-data.zip
 ```
 
