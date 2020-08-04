@@ -122,7 +122,7 @@ In addition to the material in this git repository, I've also used materials fro
 - **Tuesday 4th August 2020:** Practical Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
     * Workshop on data you provide
-    * We will look at [slides](https://github.com/jonhare/DISCnetMachineLearningCourse/blob/master/Friday/projects.pdf):
+    * We will look at ([slides](https://github.com/jonhare/DISCnetMachineLearningCourse/blob/master/Friday/projects.pdf)):
       * Analyse the problem
       * Visualise the data
       * Cleaning the data
