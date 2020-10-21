@@ -1,0 +1,13 @@
+\frametitle{Reminder: Stochastic Gradient Descent}
+
+\begin{itemize}
+  \item Define loss function $\ell$, dataset $\bm D$ and model $g$ with learnable parameters $\bm\theta$.
+  \item Define how many passes over the data to make (each one known as an Epoch)
+  \item Define a learning rate $\eta$
+\end{itemize}
+
+Stochastic Gradient Descent updates the parameters $\bm\theta$ by moving them in the direction of the negative gradient with respect to the loss of a \textbf{single item} $\ell$ by the learning rate $\eta$ multiplied by the gradient:
+\\[1em]
+\hspace{1cm} \texttt{for each Epoch:}\\
+  \hspace{2cm} \texttt{for each $(\bm x,y) \in \bm D$:}\\
+    \hspace{3cm} $\bm\theta \leftarrow \bm\theta - \eta \nabla_{\bm\theta} \ell$
