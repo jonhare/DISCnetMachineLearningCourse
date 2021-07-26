@@ -13,7 +13,7 @@ In addition to the material in this git repository, I've also used materials fro
 
 (Note that this is only a guide. We'll adapt the content to your needs during the course.)
 
-- **Monday 27th July 2020:** Overview of Machine Learning
+- **Monday 26th July 2021:** Overview of Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
   + 10:00-11:30
     * Introductions:  Course teachers and students
@@ -39,7 +39,7 @@ In addition to the material in this git repository, I've also used materials fro
     * Hands-of practical session
     * Introduction to python, scikit-learn and CoLab
  
-- **Tuesday 28th July 2020:** Introduction to Machine Learning
+- **Tuesday 27th July 2021:** Introduction to Machine Learning
   + 9:30-11:00 _Jon_
     * More practicals/exercises
   + 11:00-11:30
@@ -59,7 +59,7 @@ In addition to the material in this git repository, I've also used materials fro
       * ROC curves
     * Homework
     
-- **Wednesday: 29th July 2020:** Advanced Machine Learning
+- **Wednesday: 28th July 2021:** Advanced Machine Learning
   + Leader: _Adam_
   + 9:30-11:00
     * Generalisation
@@ -82,7 +82,7 @@ In addition to the material in this git repository, I've also used materials fro
     * Probability Models
       * Gaussian Processes and Naive Bayes
     * Homework
-- **Monday 3rd August 2020:** Deep Learning
+- **Thursday 28th July 2021:** Deep Learning
   + *Leader: _Jonathon_
   + 9:30-11:00
     * Why Deep
@@ -119,7 +119,7 @@ In addition to the material in this git repository, I've also used materials fro
         + VQA
       - GANs
     * Homework
-- **Tuesday 4th August 2020:** Practical Machine Learning
+- **Friday 30th July 2021:** Practical Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
     * Workshop on data you provide
     * We will look at ([slides](https://github.com/jonhare/DISCnetMachineLearningCourse/blob/master/Friday/projects.pdf)):
