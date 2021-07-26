@@ -15,16 +15,16 @@ In addition to the material in this git repository, I've also used materials fro
 
 - **Monday 26th July 2021:** Overview of Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
-  + 10:00-11:30
+  + 10:00-10:30
     * Introductions:  Course teachers and students
     * Playing with zoom
     * [ML in one page](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/SummerSchool_NiranjanOnePage.pdf) _Niranjan_
     * [Artificial Idiots](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/talk.pdf) _Adam_
     * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md) _Jon_
-  + 11:30-12:00
+  + 10:30-11:00
     * Coffee
     * Chat in Break out rooms
-  + 12:00-1:00 _Niranjan_
+  + 11:00-12:30 _Niranjan_
     * Understanding simple machine learning algorithms
       * Linear models, Gaussian distributions
   + 1:00-2:00
