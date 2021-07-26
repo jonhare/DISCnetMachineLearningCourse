@@ -17,25 +17,24 @@ In addition to the material in this git repository, I've also used materials fro
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
   + 10:00-10:30
     * Introductions:  Course teachers and students
-    * Playing with zoom
-    * [ML in one page](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/SummerSchool_NiranjanOnePage.pdf) _Niranjan_
-    * [Artificial Idiots](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/talk.pdf) _Adam_
-    * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md) _Jon_
   + 10:30-11:00
     * Coffee
     * Chat in Break out rooms
   + 11:00-12:30 _Niranjan_
+    * [ML in one page](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/SummerSchool_NiranjanOnePage.pdf) _Niranjan_
+    * [Artificial Idiots](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/talk.pdf) _Adam_
+    * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md) _Jon_
+  + 12:30-2:00
+    * Lunch (exercise)
+  + 1:30-3:00 _Niranjan_
     * Understanding simple machine learning algorithms
       * Linear models, Gaussian distributions
-  + 1:00-2:00
-    * Lunch (exercise)
-  + 2:00-3:30 _Niranjan_
     * Bayes Optimal Regression 
     * Fisher Discriminant Analysis
     * Peceptron
-  + 3:30:4:00
+  + 3:00:3:30
     * Coffee (break out rooms)
-  + 4:00-5:00 _Jon_
+  + 3:30-5:00 _Jon_
     * Hands-of practical session
     * Introduction to python, scikit-learn and CoLab
  
