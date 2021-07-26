@@ -83,27 +83,29 @@ In addition to the material in this git repository, I've also used materials fro
     * Probability Models
       * Gaussian Processes and Naive Bayes
     * Homework
+  + 7:00 _Dinner__
+  + 
 - **Thursday 28th July 2021:** Deep Learning
   + *Leader: _Jonathon_
-  + 9:30-11:00
+  + 9:00-10:30
     * Why Deep
       * CNNs
       * RNNs (LSTM, etc.)
-  + 11:30-12:00
+  + 10:30-11:00
     * Coffee
-  + 12:00-1:00
+  + 11:00-12:30
     * Word Embeddings
     * Loss functions
     * GPU programming (libraries)
-  + 1:00-2:00
+  + 12:30-1:30
     * Lunch
-  + 2:00-3:30
+  + 1:30-3:00
     * Keras tutorial 1 - building simple CNNs
     * Transfer Learning
     * Keras tutorial 2 - transfer learning with CNNs
-  + 3:30-4:00
+  + 3:00-3:30
     * Coffee
-  + 4:00-5:00
+  + 3:30-5:00
     * Keras tutorial 3 - Text classification
     * Keras tutorial 4 - Sequence modelling
     * Current research challenges
@@ -120,8 +122,10 @@ In addition to the material in this git repository, I've also used materials fro
         + VQA
       - GANs
     * Homework
+  + 7:00 _Dinner_
 - **Friday 30th July 2021:** Practical Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
+  + 9:00-10:30
     * Workshop on data you provide
     * We will look at ([slides](https://github.com/jonhare/DISCnetMachineLearningCourse/blob/master/Friday/projects.pdf)):
       * Analyse the problem
@@ -129,7 +133,12 @@ In addition to the material in this git repository, I've also used materials fro
       * Cleaning the data
       * Using machine learning libraries
       * Evaluate performance
-    * 11:30-12:00 Coffee
-    * 1:00-2:00 Lunch
-    * 3:30-4:00 Coffee
+  + 10:30-11:00 Coffee
+  + 11:00-12:30
+    * Work on data 
+  + 12:30-1:30 Lunch
+  + 13:00-3:00
+    * Practical ML
+  + 3:00-3:30 Coffee
+  + 3:40 _Taxi to station_
 
