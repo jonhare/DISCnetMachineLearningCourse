@@ -34,50 +34,52 @@ In addition to the material in this git repository, I've also used materials fro
     * Peceptron
   + 3:00:3:30
     * Coffee (break out rooms)
-  + 3:30-5:00 _Jon_
-    * Hands-of practical session
-    * Introduction to python, scikit-learn and CoLab
+  + 3:30-5:00 _Biranjan_
+    * Feature selection and Lasso
+  + 7:00 _Dinner_
+    * Kings 
  
 - **Tuesday 27th July 2021:** Introduction to Machine Learning
-  + 9:30-11:00 _Jon_
-    * More practicals/exercises
-  + 11:00-11:30
-    * Coffee/break out rooms
-  + 11:30-1:00 _Jon_
+  + 9:00-10:30 _Jon_
     * Handling Data
-  + 1:00-2:00
-    * Lunch
-  + 2:00-3:30 _Niranjan_
-    * Feature selection and Lasso
+    * Hands-of practical session
+    * Introduction to python, scikit-learn and CoLab
+  + 10:30-11:00
+    * Coffee/break out rooms
+  + 11:00-12:30 _Niranjan_
     * MLPs
     * Gradient learning, SGD, momentum
-  + 3:30-4:00
+  + 12:30-1:30
+    * Lunch
+  + 1:30-3:00 
+  + 3:00-3:30
     * Coffee
-  + 4:00-5:00
+  + 3:30-5:00
     * Evaluating performance
       * ROC curves
     * Homework
+  + 7:15 _Dinner_
     
 - **Wednesday: 28th July 2021:** Advanced Machine Learning
   + Leader: _Adam_
-  + 9:30-11:00
+  + 9:00-10:30
     * Generalisation
       * Bias-Variance Dilema
     * Kernel methods
       * SVM
       * kernels
-  + 11:00-11:30
+  + 10:30-11:00
     * Coffee
-  + 11:30-1:00
+  + 11:00-12:30
      * Ensemble Techniques
       * Bagging, random forest and Boosting
-  + 1:00-2:00
+  + 12:30-1:30
     * Lunch
-  + 2:00-3:30
+  + 13:00-3:00
     * Bayesian Inference
-  + 3:30-4:00
+  + 3:00-3:30
     * Coffee
-  + 4:00-5:00
+  + 3:30-5:00
     * Probability Models
       * Gaussian Processes and Naive Bayes
     * Homework
