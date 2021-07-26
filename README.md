@@ -34,7 +34,7 @@ In addition to the material in this git repository, I've also used materials fro
     * Peceptron
   + 3:00:3:30
     * Coffee (break out rooms)
-  + 3:30-5:00 _Biranjan_
+  + 3:30-5:00 _Niranjan_
     * Feature selection and Lasso
   + 7:00 _Dinner_
     * Kings 
