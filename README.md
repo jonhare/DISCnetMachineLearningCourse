@@ -41,7 +41,7 @@ In addition to the material in this git repository, I've also used materials fro
  
 - **Tuesday 27th July 2021:** Introduction to Machine Learning
   + 9:00-10:30 _Adam_
-    * How to do Machine Learning
+    * [How to do Machine Learning](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Tuesday/)
   + 10:30-11:00
     * Coffee/break out rooms
   + 11:00-12:30  _Jon_
