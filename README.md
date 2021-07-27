@@ -40,18 +40,19 @@ In addition to the material in this git repository, I've also used materials fro
     * Kings 
  
 - **Tuesday 27th July 2021:** Introduction to Machine Learning
-  + 9:00-10:30 _Jon_
+  + 9:00-10:30 _Adam_
+    * How to do Machine Learning
+  + 10:30-11:00
+    * Coffee/break out rooms
+  + 11:00-12:30  _Jon_
     * Handling Data
     * Hands-of practical session
     * Introduction to python, scikit-learn and CoLab
-  + 10:30-11:00
-    * Coffee/break out rooms
-  + 11:00-12:30 _Niranjan_
-    * MLPs
-    * Gradient learning, SGD, momentum
   + 12:30-1:30
     * Lunch
-  + 1:30-3:00 
+  + 1:30-3:00 _Niranjan_
+    * MLPs
+    * Gradient learning, SGD, momentum
   + 3:00-3:30
     * Coffee
   + 3:30-5:00
