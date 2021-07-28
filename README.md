@@ -84,6 +84,7 @@ In addition to the material in this git repository, I've also used materials fro
     * Probability Models
       * Gaussian Processes and Naive Bayes
     * Homework
+    * Extra exercises: http://comp6248.ecs.soton.ac.uk/labs/lab1/
   + 7:00 _Dinner__
   + 
 - **Thursday 28th July 2021:** Deep Learning
