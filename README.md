@@ -90,27 +90,10 @@ In addition to the material in this git repository, I've also used materials fro
 - **Thursday 28th July 2021:** Deep Learning
   + *Leader: _Jonathon_
   + 9:00-10:30
-    * Why Deep
+    * Why Deep (see https://github.com/jonhare/DiffProgLecture/blob/main/tex/diffprog.pdf)
       * CNNs
       * RNNs (LSTM, etc.)
-  + 10:30-11:00
-    * Coffee
-  + 11:00-12:30
-    * Word Embeddings
-    * Loss functions
-    * GPU programming (libraries)
-  + 12:30-1:30
-    * Lunch
-  + 1:30-3:00
-    * Keras tutorial 1 - building simple CNNs
-    * Transfer Learning
-    * Keras tutorial 2 - transfer learning with CNNs
-  + 3:00-3:30
-    * Coffee
-  + 3:30-5:00
-    * Keras tutorial 3 - Text classification
-    * Keras tutorial 4 - Sequence modelling
-    * Current research challenges
+      * Current research challenges
       - Visual
         + segmentation
         + object detection
@@ -123,6 +106,25 @@ In addition to the material in this git repository, I've also used materials fro
         + generating from embeddings
         + VQA
       - GANs
+  + 10:30-11:00
+    * Coffee
+  + 11:00-12:30
+    * Word Embeddings
+    * Loss functions
+    * GPU programming (libraries)
+  + 12:30-1:30
+    * Lunch
+  + 1:30-3:00
+    * Keras tutorial 1 - building simple CNNs
+    * Transfer Learning
+    * Keras tutorial 2 - transfer learning with CNNs
+    * or: http://comp6248.ecs.soton.ac.uk
+  + 3:00-3:30
+    * Coffee
+  + 3:30-5:00
+    * Keras tutorial 3 - Text classification
+    * Keras tutorial 4 - Sequence modelling
+    * or: http://comp6248.ecs.soton.ac.uk
     * Homework
   + 7:00 _Dinner_
 - **Friday 30th July 2021:** Practical Machine Learning
