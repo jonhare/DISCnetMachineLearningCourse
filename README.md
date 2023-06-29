@@ -9,59 +9,61 @@ In addition to the material in this git repository, I've also used materials fro
 - http://comp6237.ecs.soton.ac.uk / https://github.com/jonhare/COMP6237
 - http://comp6248.ecs.soton.ac.uk / https://github.com/jonhare/COMP6248
 
+## Extra Activities
+Cumberland lodge is a beautiful building set in the centre of Windsor Great Park. Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly to a pub on occasion). If you would like to join us (or go for and independent walk) please take comfortable shoes.
+
 ## Rough Plan
 
 (Note that this is only a guide. We'll adapt the content to your needs during the course.)
 
-- **Monday 26th July 2021:** Overview of Machine Learning
+- **Monday 24th July 2023:** Overview of Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
-  + 10:00-10:30
+  + 9:00-10:00 Bar
+    * Tea & Coffee welcome
+  + 10:00-10:30 Sandby room
     * Introductions:  Course teachers and students
   + 10:30-11:00
     * Coffee
     * Chat in Break out rooms
-  + 11:00-12:30 _Niranjan_
+  + 11:00-12:50 _Niranjan_
     * [ML in one page](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/SummerSchool_NiranjanOnePage.pdf) _Niranjan_
     * [Artificial Idiots](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/talk.pdf) _Adam_
     * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md) _Jon_
-  + 12:30-2:00
-    * Lunch (exercise)
-  + 1:30-3:00 _Niranjan_
+  + 1:00-2:00
+    * Lunch
+  + 2:05-3:30 _Niranjan_
     * Understanding simple machine learning algorithms
       * Linear models, Gaussian distributions
     * Bayes Optimal Regression 
     * Fisher Discriminant Analysis
     * Peceptron
-  + 3:00:3:30
-    * Coffee (break out rooms)
-  + 3:30-5:00 _Niranjan_
     * Feature selection and Lasso
-  + 7:00 _Dinner_
-    * Kings 
+  + 3:30-4:00 Bar
+    * Coffee 
+  + 7:15-9:00 _Dinner_
  
-- **Tuesday 27th July 2021:** Introduction to Machine Learning
+- **Tuesday 25th July 2023:** Introduction to Machine Learning
+  + 8:00-9:00 Breakfast
   + 9:00-10:30 _Adam_
     * [How to do Machine Learning](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Tuesday/)
   + 10:30-11:00
     * Coffee/break out rooms
-  + 11:00-12:30  _Jon_
+  + 11:00-12:50  _Jon_
     * Handling Data
     * Hands-of practical session
     * Introduction to python, scikit-learn and CoLab
-  + 12:30-1:30
+  + 1:00-2:00
     * Lunch
-  + 1:30-3:00 _Niranjan_
+  + 2:00-3:30 _Niranjan_
     * MLPs
     * Gradient learning, SGD, momentum
-  + 3:00-3:30
-    * Coffee
-  + 3:30-5:00
-    * Evaluating performance
+    * valuating performance
       * ROC curves
-    * Homework
-  + 7:15 _Dinner_
+  + 3:30-4:00 Bar
+    * Tea & Coffee
+  + 7:15-9:00 _Dinner_
     
-- **Wednesday: 28th July 2021:** Advanced Machine Learning
+- **Wednesday: 26th July 2023:** Advanced Machine Learning
   + Leader: _Adam_
   + 9:00-10:30
     * Generalisation
@@ -71,23 +73,22 @@ In addition to the material in this git repository, I've also used materials fro
       * kernels
   + 10:30-11:00
     * Coffee
-  + 11:00-12:30
+  + 11:00-12:50
      * Ensemble Techniques
       * Bagging, random forest and Boosting
-  + 12:30-1:30
+  + 1:00-2:00
     * Lunch
-  + 13:00-3:00
+  + 13:00-3:30
     * Bayesian Inference
-  + 3:00-3:30
-    * Coffee
-  + 3:30-5:00
     * Probability Models
       * Gaussian Processes and Naive Bayes
+  + 3:30-4:00
+    * Coffee
     * Homework
     * Extra exercises: http://comp6248.ecs.soton.ac.uk/labs/lab1/
-  + 7:00 _Dinner__
+  + 7:15-9:00 _Dinner__
   + 
-- **Thursday 28th July 2021:** Deep Learning
+- **Thursday 27th July 2023:** Deep Learning
   + *Leader: _Jonathon_
   + 9:00-10:30
     * Why Deep (see https://github.com/jonhare/DiffProgLecture/blob/main/tex/diffprog.pdf)
@@ -108,26 +109,24 @@ In addition to the material in this git repository, I've also used materials fro
       - GANs
   + 10:30-11:00
     * Coffee
-  + 11:00-12:30
+  + 11:00-12:50
     * Word Embeddings
     * Loss functions
     * GPU programming (libraries)
-  + 12:30-1:30
+  + 1:00-2:00
     * Lunch
   + 1:30-3:00
     * Keras tutorial 1 - building simple CNNs
     * Transfer Learning
     * Keras tutorial 2 - transfer learning with CNNs
     * or: http://comp6248.ecs.soton.ac.uk
-  + 3:00-3:30
-    * Coffee
-  + 3:30-5:00
     * Keras tutorial 3 - Text classification
     * Keras tutorial 4 - Sequence modelling
-    * or: http://comp6248.ecs.soton.ac.uk
-    * Homework
-  + 7:00 _Dinner_
-- **Friday 30th July 2021:** Practical Machine Learning
+    * or: http://comp6248.ecs.soton.ac.uk  + 3:00-3:30
+  + 3:30-4:00
+    * Coffee
+  + 7:15-9:00 _Dinner_
+- **Friday 28th July 2023:** Practical Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
   + 9:00-10:30
     * Workshop on data you provide
@@ -138,11 +137,11 @@ In addition to the material in this git repository, I've also used materials fro
       * Using machine learning libraries
       * Evaluate performance
   + 10:30-11:00 Coffee
-  + 11:00-12:30
+  + 11:00-12:50
     * Work on data 
   + 12:30-1:30 Lunch
-  + 13:00-3:00
+  + 13:00-3:30
     * Practical ML
-  + 3:00-3:30 Coffee
-  + 3:40 _Taxi to station_
+  + 3:30-4:00 Coffee
+  + _Leave_
 
