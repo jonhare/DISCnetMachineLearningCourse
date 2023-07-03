@@ -61,6 +61,8 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
       * ROC curves
   + 3:30-4:00 Bar
     * Tea & Coffee
+  + 4:00-5:00
+    * Ethics discussion
   + 7:15-9:00 _Dinner_
     
 - **Wednesday: 26th July 2023:** Advanced Machine Learning
