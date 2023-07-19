@@ -21,6 +21,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
   + 9:00-10:00 Bar
     * Tea & Coffee welcome
   + 10:00-10:30 Sandby room
+    * Welcome from Cumberland Lodge
     * Introductions:  Course teachers and students
   + 10:30-11:00
     * Coffee
