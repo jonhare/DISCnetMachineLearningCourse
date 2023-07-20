@@ -23,10 +23,8 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
   + 10:00-10:30 Sandby room
     * Welcome from Cumberland Lodge
     * Introductions:  Course teachers and students
-  + 10:30-11:00
-    * Coffee
     * Chat in Break out rooms
-  + 11:00-12:50 _Niranjan_
+  + 10:30-12:50 _Niranjan_
     * [ML in one page](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/SummerSchool_NiranjanOnePage.pdf) _Niranjan_
     * [Artificial Idiots](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/talk.pdf) _Adam_
     * [Failures of machine learning](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/ML-failures.md) _Jon_
