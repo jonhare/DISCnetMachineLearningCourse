@@ -17,7 +17,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
 (Note that this is only a guide. We'll adapt the content to your needs during the course.)
 
 - **Monday 24th July 2023:** Overview of Machine Learning
-  + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
+  + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Prof Hare*
   + 9:00-10:00 Bar
     * Tea & Coffee welcome
   + 10:00-10:30 Sandby room
