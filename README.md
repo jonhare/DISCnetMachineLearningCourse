@@ -36,7 +36,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
       * Linear models, Gaussian distributions
     * Bayes Optimal Regression 
     * Fisher Discriminant Analysis
-    * Peceptron
+    * Perceptron
     * Feature selection and Lasso
   + 3:30-4:00 Bar
     * Coffee 
