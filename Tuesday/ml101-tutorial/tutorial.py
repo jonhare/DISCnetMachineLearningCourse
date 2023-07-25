@@ -47,7 +47,7 @@ km = KMeans(4)
 km.fit(X_train_tfidf)
 
 order_centroids = km.cluster_centers_.argsort()[:, ::-1]
-terms = tfidf_vect.get_feature_names()
+terms = tfidf_vect.get_feature_names_out()
 for i in range(4):
 	print("Cluster %d:" % i, end="")
 	for ind in order_centroids[i, :10]:
