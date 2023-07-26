@@ -65,7 +65,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
     * Ethics discussion
   + 7:15-9:00 _Dinner_
     
-- **Wednesday: 26th July 2023:** Advanced Machine Learning
+- **Wednesday: 26th July 2023:** [Advanced Machine Learning](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Wednesday/)
   + Leader: _Adam_
   + 9:00-10:30
     * Generalisation
