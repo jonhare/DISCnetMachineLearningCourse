@@ -22,7 +22,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
 
 - **Monday 1st July 2024:** Overview of Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Prof Hare*
-  + 9:00-10:00 Bar
+  + 9:00-10:00 Available outside Voltaire/Berkeley meeting room
     * Tea & Coffee welcome
   + 10:00-10:30 (Voltaire/Berkeley)
     * Introductions:  Course teachers and students
