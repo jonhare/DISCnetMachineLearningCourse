@@ -1,4 +1,7 @@
 # DISCnet Machine Learning Course
+
+## Highfield Park 1-5 July 2024
+
 Notes, demos and materials for learning Machine Learning
 
 ## Extra materials
@@ -17,12 +20,11 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
 
 (Note that this is only a guide. We'll adapt the content to your needs during the course.)
 
-- **Monday 24th July 2023:** Overview of Machine Learning
+- **Monday 1st July 2024:** Overview of Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Prof Hare*
   + 9:00-10:00 Bar
     * Tea & Coffee welcome
-  + 10:00-10:30 Sandby room
-    * Welcome from Cumberland Lodge
+  + 10:00-10:30 (Voltaire/Berkeley)
     * Introductions:  Course teachers and students
     * Chat in Break out rooms
   + 10:30-12:50 _Niranjan_
@@ -42,7 +44,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
     * Coffee 
   + 7:15-9:00 _Dinner_
  
-- **Tuesday 25th July 2023:** Introduction to Machine Learning
+- **Tuesday 2nd July 2024:** Introduction to Machine Learning
   + 8:00-9:00 Breakfast
   + 9:00-10:30 _Adam_
     * [How to do Machine Learning](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Tuesday/)
@@ -65,7 +67,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
     * Ethics discussion
   + 7:15-9:00 _Dinner_
     
-- **Wednesday: 26th July 2023:** [Advanced Machine Learning](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Wednesday/)
+- **Wednesday: 3rd July 2024:** [Advanced Machine Learning](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Wednesday/)
   + Leader: _Adam_
   + 9:00-10:30
     * Generalisation
@@ -90,7 +92,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
     * Extra exercises: http://comp6248.ecs.soton.ac.uk/labs/lab1/
   + 7:15-9:00 _Dinner__
   + 
-- **Thursday 27th July 2023:** Deep Learning
+- **Thursday 4th July 2024:** Deep Learning
   + *Leader: _Jonathon_
   + 9:00-10:30
     * Why Deep (see https://github.com/jonhare/DiffProgLecture/blob/main/tex/diffprog.pdf)
@@ -128,7 +130,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
   + 3:30-4:00
     * Coffee
   + 7:15-9:00 _Dinner_
-- **Friday 28th July 2023:** Practical Machine Learning
+- **Friday 5th July 2024:** Practical Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
   + 9:00-10:30
     * Workshop on data you provide
