@@ -65,7 +65,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
     * Tea & Coffee
   + 4:00-5:00
     * Ethics discussion
-  + 7:15-9:00 _Dinner_
+  + 7:00-9:00 _Dinner_
     
 - **Wednesday: 3rd July 2024:** [Advanced Machine Learning](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Wednesday/)
   + Leader: _Adam_
@@ -90,7 +90,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
     * Coffee
     * Homework
     * Extra exercises: http://comp6248.ecs.soton.ac.uk/labs/lab1/
-  + 7:15-9:00 _Dinner__
+  + 7:00-9:00 _Dinner__
   + 
 - **Thursday 4th July 2024:** Deep Learning
   + *Leader: _Jonathon_
@@ -129,7 +129,7 @@ Cumberland lodge is a beautiful building set in the centre of Windsor Great Park
     * or: http://comp6248.ecs.soton.ac.uk  + 3:00-3:30
   + 3:30-4:00
     * Coffee
-  + 7:15-9:00 _Dinner_
+  + 7:00-9:00 _Dinner_
 - **Friday 5th July 2024:** Practical Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
   + 9:00-10:30
