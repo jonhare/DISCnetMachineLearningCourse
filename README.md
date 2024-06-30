@@ -14,7 +14,8 @@ In addition to the material in this git repository, I've also used materials fro
 - http://ecs-vlc.github.io/COMP6258 / https://github.com/ecs-vlc/COMP6258 
 
 ## Extra Activities
-Cumberland lodge is a beautiful building set in the centre of Windsor Great Park. Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly to a pub on occasion). If you would like to join us (or go for and independent walk) please take comfortable shoes.
+<!-- Cumberland lodge is a beautiful building set in the centre of Windsor Great Park. -->
+Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly to a pub on occasion). If you would like to join us (or go for and independent walk) please take comfortable shoes.
 
 ## Rough Plan
 
