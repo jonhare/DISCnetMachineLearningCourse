@@ -6,6 +6,7 @@ from torchvision.models import resnet18
 from PIL import Image
 from torch.utils.data import Dataset, random_split
 import pandas as pd
+from tqdm import tqdm
 
 
 class GalaxyDataset(Dataset):
@@ -35,23 +36,42 @@ class GalaxyDataset(Dataset):
         return image, target
 
 
-ds = GalaxyDataset("/Users/jsh2/Work/galaxyzoo", transform=ToTensor())
+ds = GalaxyDataset("/home/jsh2/galaxyzoo", transform=ToTensor())
 
 generator = torch.Generator().manual_seed(42)
 train_ds, val_ds = random_split(ds, [0.7, 0.3], generator=generator)
 
-device = "mps"
+device = "cuda" if torch.cuda.is_available() else "cpu"
 model = resnet18(num_classes=37).to(device)
 
-loader = torch.utils.data.DataLoader(train_ds, batch_size=128, shuffle=True)
+loader = torch.utils.data.DataLoader(train_ds, batch_size=128, shuffle=True, num_workers=2)
+val_loader = torch.utils.data.DataLoader(val_ds, batch_size=128, shuffle=False)
 learning_rate = 0.01
 
 opt = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
-for epoch in range(3):
+def validate(val_loader, model, device):
+    model.eval()
+
+    with torch.no_grad():
+        val_loss = 0
+        count = 0
+        for (x_, y_) in val_loader:
+            x_, y_ = x_.to(device), y_.to(device)
+            prediction = model(x_)
+            loss = torch.nn.functional.mse_loss(prediction, y_)
+            val_loss += loss.cpu().item()
+            count += x_.shape[0]
+
+        model.train()
+        return val_loss / count
+
+
+for epoch in range(100):
     losses = 0
     count = 0
-    for (x_, y_) in loader:
+    tloader = tqdm(loader)
+    for (x_, y_) in tloader:
         opt.zero_grad()
 
         x_, y_ = x_.to(device), y_.to(device)
@@ -63,4 +83,8 @@ for epoch in range(3):
 
         losses += loss.detach().cpu().item()
         count += x_.shape[0]
-        print(losses / count)
+        tloader.set_postfix({"loss": losses / count})
+
+    val_loss = validate(val_loader, model, device)
+    print(epoch, val_loss)
+    torch.save(model, f"./model_{epoch}.pt")
