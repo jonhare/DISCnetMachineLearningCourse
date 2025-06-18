@@ -1,6 +1,6 @@
 # DISCnet Machine Learning Course
 
-## Highfield Park 1-5 July 2024
+## Old Thorns, Hiplook 30th June-4th July 2025
 
 Notes, demos and materials for learning Machine Learning
 
@@ -23,9 +23,9 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
 
 - **Monday 1st July 2024:** Overview of Machine Learning
   + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Prof Hare*
-  + 9:00-10:00 Available outside Voltaire/Berkeley meeting room
+  + 9:00-10:00 Available outside Carnoustie meeting room meeting room
     * Tea & Coffee welcome
-  + 10:00-10:30 (Voltaire/Berkeley)
+  + 10:00-10:30  Carnoustie meeting room
     * Introductions:  Course teachers and students
     * Chat in Break out rooms
   + 10:30-12:50 _Niranjan_
