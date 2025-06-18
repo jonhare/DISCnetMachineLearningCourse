@@ -11,7 +11,8 @@ In addition to the material in this git repository, I've also used materials fro
 - http://comp3204.ecs.soton.ac.uk / https://github.com/jonhare/COMP3204
 - http://comp6237.ecs.soton.ac.uk / https://github.com/jonhare/COMP6237
 - http://comp6248.ecs.soton.ac.uk / https://github.com/jonhare/COMP6248
-- http://ecs-vlc.github.io/COMP6258 / https://github.com/ecs-vlc/COMP6258 
+- http://ecs-vlc.github.io/COMP6258 / https://github.com/ecs-vlc/COMP6258
+- http://ecs-vlc.github.io/COMP6208 / https://github.com/ecs-vlc/COMP6208
 
 ## Extra Activities
 <!-- Cumberland lodge is a beautiful building set in the centre of Windsor Great Park. -->
