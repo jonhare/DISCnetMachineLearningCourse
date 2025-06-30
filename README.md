@@ -90,7 +90,7 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
   + 3:30-4:00
     * Coffee
     * Homework
-    * Extra exercises: http://comp6248.ecs.soton.ac.uk/labs/lab1/
+    * Extra exercises: https://ecs-vlc.github.io/COMP6258/labs/lab1/
   + 7:00-9:00 _Dinner__
   + 
 - **Thursday 4th July 2024:** Deep Learning
@@ -124,10 +124,10 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
     * Keras tutorial 1 - building simple CNNs
     * Transfer Learning
     * Keras tutorial 2 - transfer learning with CNNs
-    * or: [http://comp6248.ecs.soton.ac.uk](https://ecs-vlc.github.io/COMP6258/)
+    * or: https://ecs-vlc.github.io/COMP6258/
     * Keras tutorial 3 - Text classification
     * Keras tutorial 4 - Sequence modelling
-    * or: [http://comp6248.ecs.soton.ac.uk](https://ecs-vlc.github.io/COMP6258/)
+    * or: https://ecs-vlc.github.io/COMP6258/
   + 3:30-4:00
     * Coffee
   + 7:00-9:00 _Dinner_
