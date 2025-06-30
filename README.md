@@ -43,7 +43,7 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
     * Feature selection and Lasso
   + 3:30-4:00 coffee room
     * Coffee 
-  + 7:15-9:00 _Dinner_
+  + 17:15-9:00 _Dinner_
  
 - **Tuesday 2nd July 2024:** Introduction to Machine Learning
   + 8:00-9:00 Breakfast
