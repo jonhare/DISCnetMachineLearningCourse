@@ -94,7 +94,7 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
   + 7:00-9:00 _Dinner__
   + 
 - **Thursday 4th July 2024:** Deep Learning
-  + *Leader: _Jonathon_
+  + *Leader: _Jon_
   + 9:00-10:30
     * Why Deep (see https://github.com/jonhare/DiffProgLecture/blob/main/tex/diffprog.pdf)
       * CNNs
@@ -124,15 +124,15 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
     * Keras tutorial 1 - building simple CNNs
     * Transfer Learning
     * Keras tutorial 2 - transfer learning with CNNs
-    * or: http://comp6248.ecs.soton.ac.uk
+    * or: [http://comp6248.ecs.soton.ac.uk](https://ecs-vlc.github.io/COMP6258/)
     * Keras tutorial 3 - Text classification
     * Keras tutorial 4 - Sequence modelling
-    * or: http://comp6248.ecs.soton.ac.uk  + 3:00-3:30
+    * or: [http://comp6248.ecs.soton.ac.uk](https://ecs-vlc.github.io/COMP6258/)
   + 3:30-4:00
     * Coffee
   + 7:00-9:00 _Dinner_
 - **Friday 5th July 2024:** Practical Machine Learning
-  + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Dr Hare*
+  + *Leaders: Prof Niranjan, Prof Prugel-Bennett and Prof Hare*
   + 9:00-10:30
     * Workshop on data you provide
     * We will look at ([slides](https://github.com/jonhare/DISCnetMachineLearningCourse/blob/master/Friday/projects.pdf)):
