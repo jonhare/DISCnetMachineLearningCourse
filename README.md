@@ -41,7 +41,7 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
     * Fisher Discriminant Analysis
     * Perceptron
     * Feature selection and Lasso
-  + 3:30-4:00 Bar
+  + 3:30-4:00 coffee room
     * Coffee 
   + 7:15-9:00 _Dinner_
  
@@ -62,7 +62,7 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
     * Gradient learning, SGD, momentum
     * valuating performance
       * ROC curves
-  + 3:30-4:00 Bar
+  + 3:30-4:00 coffee room
     * Tea & Coffee
   + 4:00-5:00
     * Ethics discussion
