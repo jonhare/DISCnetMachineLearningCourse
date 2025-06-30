@@ -28,7 +28,6 @@ Weather permitting Jon, Niranjan and Adam are likely to go for a walk (possibly 
     * Tea & Coffee welcome
   + 10:00-10:30  Carnoustie meeting room
     * Introductions:  Course teachers and students
-    * Chat in Break out rooms
   + 10:30-12:50 _Niranjan_
     * [ML in one page](https://github.com/jonhare/DISCnetMachineLearningCourse/raw/master/Monday/SummerSchool_NiranjanOnePage.pdf) _Niranjan_
     * [Artificial Idiots](https://github.com/jonhare/DISCNetMachineLearningCourse/blob/master/Monday/talk.pdf) _Adam_
